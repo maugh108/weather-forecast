@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="weather forecast travel"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title></title>
+</head>
+
+<body>
+  <header>
+    <h1 class="text-center">Weather Dashboard</h1>
+  </header>
+
+  <div id="main-content">
+    <section id="search-bar">
+      
+      <h1>Search for a City</h1>
+
+      <button type="button" class="btn btn-primary btn-lg btn-block" onclick="getData('06300', 'MX')">Mexico City</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block" onclick="getData('64000', 'MX')">Monterrey</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block" onclick="getData('44200', 'MX')">Guadalajara</button>
+    </section>
+
+    <section id="content">
+      <div id="selected-city">
+        <h2 id="city-name" class="align-middle text-center">City Name</h2>
+        <p id="temp">Temperature: </p>
+        <p id="wind">Wind: </p>
+        <p id="humid">Humidity: </p>
+      </div>
+      
+      <div id="weather-cards">
+        <div id="card">
+          <h3 id = "day1" class="align-middle text-center">mañana</h3>
+          <p id = "em1" class="align-middle text-center emoji">☀️</p>
+          <p id = "pT1">Temperature: </p>
+          <p id = "pW1">Wind: </p>
+          <p  id = "pH1">Humidity: </p>
+        </div>
+        <div id="card">
+          <h3 id = "day2" class="align-middle text-center">mañana+1</h3>
+          <p id = "em2" class="align-middle text-center emoji">☀️</p>
+          <p id = "pT2">Temperature: </p>
+          <p id = "pW2">Wind: </p>
+          <p  id = "pH2">Humidity: </p>
+        </div>
+        <div id="card">
+          <h3 id = "day3" class="align-middle text-center">mañana+2</h3>
+          <p id = "em3" class="align-middle text-center emoji">☀️</p>
+          <p id = "pT3">Temperature: </p>
+          <p id = "pW3">Wind: </p>
+          <p  id = "pH3">Humidity: </p>
+        </div>
+        <div id="card">
+          <h3 id = "day4" class="align-middle text-center">mañana+3</h3>
+          <p id = "em4" class="align-middle text-center emoji">☀️</p>
+          <p id = "pT4">Temperature: </p>
+          <p id = "pW4">Wind: </p>
+          <p  id = "pH4">Humidity: </p>
+        </div>
+        <div id="card">
+          <h3 id = "day5" class="align-middle text-center">mañana+4</h3>
+          <p id = "em5" class="align-middle text-center emoji">☀️</p>
+          <p id = "pT5">Temperature: </p>
+          <p id = "pW5">Wind: </p>
+          <p  id = "pH5">Humidity: </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+ 
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/js/script.js"></script>
+
+</html>

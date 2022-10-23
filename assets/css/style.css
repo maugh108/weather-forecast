@@ -1,0 +1,85 @@
+html {
+height: 100%;
+width: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(rgb(157, 96, 121), rgb(177, 122, 139), rgb(197, 149, 158), rgb(218, 176, 177), rgb(238, 204, 197));
+}
+
+
+
+header {
+    height: auto;
+    background: linear-gradient(rgb(252, 196, 238), rgb(226, 174, 208), rgb(200, 153, 179), rgb(175, 133, 151), rgb(151, 113, 124));
+    padding: 1%;
+}
+
+h1, h2, h3 {
+    color: whitesmoke;
+}
+
+#search-bar {
+    width: 20%;
+    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#content {
+    width: 70%;
+    margin: 5%;
+    margin-left: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#main-content {
+    display: flex;
+    min-height: 50vw;
+
+}
+
+button {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: linear-gradient(rgb(77, 68, 122), rgb(106, 87, 130), rgb(134, 106, 137), rgb(161, 126, 145), rgb(188, 147, 152)) !important;
+    border-color: antiquewhite !important;
+}
+
+input {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#selected-city {
+
+    height: 30%;
+    border-color: antiquewhite;
+}
+
+#weather-cards {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+p {
+    height: auto;
+    padding: 0;
+    color: whitesmoke;
+}
+
+#card {
+    background: linear-gradient(rgb(166, 138, 208), rgb(144, 121, 179), rgb(122, 105, 151), rgb(101, 89, 124), rgb(81, 74, 98));
+    width: 15%;
+    border-radius: 5%;
+    padding: 3%;
+}
+
+.emoji {
+    font-size: 500%;
+}
