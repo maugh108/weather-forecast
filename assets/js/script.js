@@ -55,7 +55,7 @@ function renderData(foreCast) {
 
 function getForecast(lat, lon) {
 
-    const url = "http://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&cnt=6&appid=" + APIkey + "&units=metric";
+    const url = "https://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&cnt=6&appid=" + APIkey + "&units=metric";
     
     fetch(url).then(function (response) {
        
